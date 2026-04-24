@@ -108,7 +108,7 @@ published numbers can be regenerated from them via the `analyze_*` scripts.
   title  = {Apparent Political Bias in Large Language Models Reflects
             Sycophancy to the Inferred User},
   author = {T{\"o}rnberg, Petter and Schimmel, Michelle},
-  journal= {Proceedings of the National Academy of Sciences},
+  journal= {Arxiv},
   year   = {2026}
 }
 ```
