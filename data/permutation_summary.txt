@@ -1,0 +1,13 @@
+Observed mean (C3R−N) − (C3L−N) in WD(Dem): +0.1553
+Item-level sign permutation test (B=10000): p = 0.0000
+
+Per-model means of asymmetry:
+model_label
+Claude Sonnet 4.5    0.131959
+DeepSeek-R1          0.223009
+GPT-4o               0.098365
+GPT-5                0.220788
+Gemini 2.5 Flash     0.119870
+Llama 4 Maverick     0.150382
+
+Model-cluster permutation test (exact, 64 perms): p = 0.0312

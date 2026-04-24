@@ -1,0 +1,7 @@
+model_label,mean_wd_rep,mean_wd_dem,mean_wd_overall,pct_closer_to_dem,overall_closer_to,n_items
+Claude Sonnet 4.5,0.318,0.2843,0.2997,57.0,Democrat,1514
+DeepSeek-R1,0.3457,0.3049,0.3233,58.8,Democrat,1539
+GPT-4o,0.3387,0.2917,0.3126,60.7,Democrat,1508
+GPT-5,0.3523,0.3051,0.3262,61.0,Democrat,1388
+Gemini 2.5 Flash,0.3711,0.3356,0.3516,57.3,Democrat,1521
+Llama 4 Maverick,0.3415,0.2964,0.3164,62.6,Democrat,1461

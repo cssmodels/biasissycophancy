@@ -1,0 +1,53 @@
+REPLICATE STABILITY AND GREEDY-DECODING ROBUSTNESS
+============================================================
+
+Inputs: original Phase 2 (1 rep, T=1.0) + 3 additional reps (T=1.0) + 1 rep (T=0.0 greedy).
+Focal grid: 500 ATP items × 6 models × {N, C3L, C3R}.
+
+--- Per-model WD(Dem) and shifts: original vs 4 reps ---
+
+Original (1 rep):
+cond                  C3L     C3R       N   C3R-N   C3L-N    asym
+model                                                            
+Claude Sonnet 4.5  0.2732  0.4042  0.2893  0.1149 -0.0162  0.1310
+DeepSeek-R1        0.2835  0.5060  0.2889  0.2171 -0.0054  0.2225
+GPT-4o             0.2776  0.3770  0.2877  0.0893 -0.0101  0.0994
+GPT-5              0.2748  0.5018  0.2845  0.2173 -0.0097  0.2270
+Gemini 2.5 Flash   0.2938  0.4174  0.3123  0.1051 -0.0185  0.1236
+Llama 4 Maverick   0.2788  0.4296  0.2809  0.1487 -0.0021  0.1508
+
+4 reps combined:
+cond                  C3L     C3R       N   C3R-N   C3L-N    asym
+model                                                            
+Claude Sonnet 4.5  0.2685  0.3966  0.2831  0.1135 -0.0146  0.1281
+DeepSeek-R1        0.2690  0.4793  0.2507  0.2286  0.0183  0.2103
+GPT-4o             0.2637  0.3507  0.2652  0.0855 -0.0014  0.0870
+GPT-5              0.2593  0.4794  0.2514  0.2279  0.0079  0.2201
+Gemini 2.5 Flash   0.2719  0.3729  0.2738  0.0992 -0.0018  0.1010
+Llama 4 Maverick   0.2733  0.4265  0.2810  0.1455 -0.0076  0.1532
+
+--- Cell-level SD across 4 T=1.0 reps ---
+N cells (model x item x cond, >=2 reps): 8892
+Mean cell SD in WD(Dem): 0.0214
+Median: 0.0000, 95th pct: 0.1616
+By condition:
+        mean  median  count
+cond                       
+C3L   0.0107     0.0   2988
+C3R   0.0340     0.0   2957
+N     0.0195     0.0   2947
+
+--- Asymmetry (C3R-N)-(C3L-N) across settings ---
+                   orig_1rep_T1  4reps_T1  T0_greedy
+model                                               
+Claude Sonnet 4.5        0.1310    0.1281     0.1347
+DeepSeek-R1              0.2225    0.2103     0.2278
+GPT-4o                   0.0994    0.0870     0.1077
+GPT-5                    0.2270    0.2201     0.2030
+Gemini 2.5 Flash         0.1236    0.1010     0.1352
+Llama 4 Maverick         0.1508    0.1532     0.1553
+
+--- Mean shifts across models ---
+orig 1 rep T=1: mean C3R-N = +0.1487, mean C3L-N = -0.0103, mean asym = +0.1591
+4 reps T=1: mean C3R-N = +0.1500, mean C3L-N = +0.0001, mean asym = +0.1499
+T=0 greedy: mean C3R-N = +0.1483, mean C3L-N = -0.0123, mean asym = +0.1606

@@ -1,0 +1,7 @@
+model_label,baseline_slant,baseline_direction,pct_dem_baseline,sycophancy_left,sycophancy_right,sycophancy_index,sycophancy_asymmetry,ca_shift_dem,ca_shift_rep
+Claude Sonnet 4.5,0.0973,left,69.9,0.017,0.0691,0.043,0.0521,-0.0004,0.0037
+DeepSeek-R1,0.1201,left,74.1,0.0059,0.0845,0.0452,0.0786,0.0053,0.0151
+GPT-4o,0.1283,left,73.0,0.0129,0.088,0.0504,0.0751,-0.0091,0.0058
+GPT-5,0.1339,left,76.8,0.0045,0.0921,0.0483,0.0876,0.0013,-0.0016
+Gemini 2.5 Flash,0.1139,left,71.1,0.0169,0.0595,0.0382,0.0426,0.0051,0.0097
+Llama 4 Maverick,0.1348,left,77.5,0.0031,0.0901,0.0466,0.087,0.0067,-0.0043

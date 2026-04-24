@@ -1,0 +1,42 @@
+Exploratory non-partisan persona probe (30 ATP items, 6 models, 3 personas, 2 reps).
+
+Mean WD(Dem) by persona (lower = closer to Dems):
+persona
+P_ORD    0.2899
+P_RET    0.2874
+P_STU    0.2477
+
+Per-model x persona:
+persona            P_ORD  P_RET  P_STU
+model                                 
+Claude Sonnet 4.5  0.324  0.314  0.269
+DeepSeek-R1        0.272  0.261  0.238
+GPT-4o             0.296  0.282  0.269
+GPT-5              0.315  0.285  0.231
+Gemini 2.5 Flash   0.307  0.283  0.288
+Llama 4 Maverick   0.225  0.301  0.191
+
+Main experiment on same 30 items (N, C3L, C3R):
+condition              N    C3L    C3R
+model_label                           
+Claude Sonnet 4.5  0.258  0.173  0.675
+DeepSeek-R1        0.297  0.189  0.804
+GPT-4o             0.276  0.188  0.645
+GPT-5              0.172  0.186  0.816
+Gemini 2.5 Flash   0.313  0.222  0.653
+Llama 4 Maverick   0.216  0.168  0.748
+
+Persona shift from N baseline:
+                   N_base  P_ORD-N  P_STU-N  P_RET-N
+model                                               
+Claude Sonnet 4.5   0.258    0.066    0.010    0.056
+DeepSeek-R1         0.297   -0.025   -0.059   -0.036
+GPT-4o              0.276    0.020   -0.007    0.006
+GPT-5               0.172    0.143    0.059    0.113
+Gemini 2.5 Flash    0.313   -0.006   -0.025   -0.030
+Llama 4 Maverick    0.216    0.010   -0.025    0.085
+
+Overall mean shift from N baseline:
+  P_ORD: +0.0347
+  P_STU: -0.0076
+  P_RET: +0.0324

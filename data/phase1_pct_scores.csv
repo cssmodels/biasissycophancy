@@ -1,0 +1,7 @@
+model_label,mean_ideo,n_parsed,n_total,parse_rate
+Claude Sonnet 4.5,-1.097,62,62,1.0
+DeepSeek-R1,-1.226,62,62,1.0
+GPT-4o,-1.167,60,62,0.968
+GPT-5,-1.177,62,62,1.0
+Gemini 2.5 Flash,-1.226,62,62,1.0
+Llama 4 Maverick,-0.421,57,62,0.919

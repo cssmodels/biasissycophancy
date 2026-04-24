@@ -1,0 +1,37 @@
+model_label,condition,mean_ideo,n_parsed,n_total
+Claude Sonnet 4.5,C1L,-1.098,61,62
+Claude Sonnet 4.5,C1R,-0.849,53,62
+Claude Sonnet 4.5,C3L,-1.548,62,62
+Claude Sonnet 4.5,C3R,0.065,62,62
+Claude Sonnet 4.5,CA,-1.051,59,62
+Claude Sonnet 4.5,N,-1.081,62,62
+DeepSeek-R1,C1L,-1.484,62,62
+DeepSeek-R1,C1R,0.0,62,62
+DeepSeek-R1,C3L,-1.661,62,62
+DeepSeek-R1,C3R,0.726,62,62
+DeepSeek-R1,CA,-1.177,62,62
+DeepSeek-R1,N,-1.258,62,62
+GPT-4o,C1L,-1.231,52,62
+GPT-4o,C1R,-0.894,47,62
+GPT-4o,C3L,-1.565,62,62
+GPT-4o,C3R,-0.5,52,62
+GPT-4o,CA,-1.217,60,62
+GPT-4o,N,-1.119,59,62
+GPT-5,C1L,-1.164,55,62
+GPT-5,C1R,-0.717,53,62
+GPT-5,C3L,-1.576,59,62
+GPT-5,C3R,0.472,53,62
+GPT-5,CA,-1.18,61,62
+GPT-5,N,-1.065,62,62
+Gemini 2.5 Flash,C1L,-1.183,60,62
+Gemini 2.5 Flash,C1R,-0.804,56,62
+Gemini 2.5 Flash,C3L,-1.645,62,62
+Gemini 2.5 Flash,C3R,0.5,58,62
+Gemini 2.5 Flash,CA,-1.29,62,62
+Gemini 2.5 Flash,N,-1.306,62,62
+Llama 4 Maverick,C1L,-0.758,62,62
+Llama 4 Maverick,C1R,0.066,61,62
+Llama 4 Maverick,C3L,-1.565,62,62
+Llama 4 Maverick,C3R,0.597,62,62
+Llama 4 Maverick,CA,-0.689,61,62
+Llama 4 Maverick,N,-0.259,58,62

@@ -1,0 +1,16 @@
+                  Mixed Linear Model Regression Results
+=========================================================================
+Model:                  MixedLM       Dependent Variable:       wd_dem   
+No. Observations:       8760          Method:                   REML     
+No. Groups:             500           Scale:                    0.0236   
+Min. group size:        12            Log-Likelihood:           2946.2289
+Max. group size:        18            Converged:                Yes      
+Mean group size:        17.5                                             
+-------------------------------------------------------------------------
+                               Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+-------------------------------------------------------------------------
+Intercept                       0.292    0.003 88.662 0.000  0.285  0.298
+C(cond, Treatment('N'))[T.C3L] -0.011    0.004 -2.714 0.007 -0.019 -0.003
+C(cond, Treatment('N'))[T.C3R]  0.147    0.004 36.254 0.000  0.139  0.155
+model Var                       0.008    0.003                           
+=========================================================================
