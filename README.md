@@ -1,7 +1,6 @@
-# Apparent Political Bias in LLMs Reflects Sycophancy to the Inferred User
+# Political Bias Audits of LLMs Capture Sycophancy to the Inferred Auditor
 
-Replication code and data for Törnberg & Schimmel (2026), "Apparent Political
-Bias in Large Language Models Reflects Sycophancy to the Inferred User."
+Replication code and data for Törnberg & Schimmel (2026), "Political Bias Audits of LLMs Capture Sycophancy to the Inferred Auditor."
 
 ## Overview
 
@@ -105,8 +104,7 @@ published numbers can be regenerated from them via the `analyze_*` scripts.
 
 ```
 @article{tornberg2026bias,
-  title  = {Apparent Political Bias in Large Language Models Reflects
-            Sycophancy to the Inferred User},
+  title  = {Political Bias Audits of LLMs Capture Sycophancy to the Inferred Auditor},
   author = {T{\"o}rnberg, Petter and Schimmel, Michelle},
   journal= {Arxiv},
   year   = {2026}
